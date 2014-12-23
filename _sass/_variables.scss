@@ -1,0 +1,24 @@
+// Variables
+$blue-darker:       #2b3a42;
+$blue-dark:         #3f5765;
+$blue-light:        #bdd4de;
+$gray-lightest:     #efefef;
+$orange:     #ff530d;
+
+
+$brand-primary: 	#0096db;
+
+$body-bg:           $blue-darker;
+$text-color:        $gray-lightest;
+$link-color:        $blue-light;
+$link-hover-color:  darken($link-color, 10%);
+
+//== Typography
+//
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,300);
+
+$font-family-serif:         'Merriweather', Georgia, serif;
+$headings-font-family:      $font-family-serif;
+$headings-font-weight:      400;
+$headings-color:            $orange;
