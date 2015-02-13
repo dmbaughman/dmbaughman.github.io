@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Portfolio
-permalink: /portfolio/
-nav_order: 3
+title: Work
+permalink: /work/
+nav_order: 2
 ---
 
-Placeholder for portfolio
+Placeholder for work page

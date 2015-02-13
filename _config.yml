@@ -6,6 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dmbaughman.com" # the base hostname & protocol for your site
 twitter_username: dmbaughman
 github_username:  dmbaughman
+collections:
+- work
 
 # Build settings
 markdown: redcarpet
