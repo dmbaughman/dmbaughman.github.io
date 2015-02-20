@@ -1,3 +1,9 @@
+.container-fluid {
+    margin-left: inherit;
+    margin-right: inherit;
+    max-width: $screen-lg-min;
+}
+
 .page-content {
 	@include container-fixed();
     margin-left: $sidebar-width-xs;
