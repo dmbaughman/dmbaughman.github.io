@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: base
+type: page
 title: About
 permalink: /about/
 nav_order: 3
