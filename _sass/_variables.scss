@@ -1,12 +1,14 @@
-// Variables
+//== Variables
+//
+
 $blue-darker:       #2b3a42;
 $blue-dark:         #3f5765;
 $blue-light:        #bdd4de;
 $gray-lightest:     #efefef;
-$orange:     #ff530d;
+$orange:            #ff530d;
 
 
-$brand-primary: 	#0096db;
+$brand-primary: 	$orange;
 
 $body-bg:           $blue-darker;
 $text-color:        $gray-lightest;
