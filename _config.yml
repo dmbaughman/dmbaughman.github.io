@@ -11,3 +11,7 @@ collections:
 
 # Build settings
 markdown: redcarpet
+exclude:
+    - 'node_modules'
+    - 'README.md'
+    - 'LICENSE'

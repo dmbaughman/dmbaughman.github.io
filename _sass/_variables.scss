@@ -1,26 +1,25 @@
 //== Variables
 //
 
-$blue-darker:       #2b3a42;
-$blue-dark:         #3f5765;
-$blue-light:        #bdd4de;
-$gray-lightest:     #efefef;
-$orange:            #ff530d;
+$brand-primary: 	#0096db;
 
-
-$brand-primary: 	$orange;
-
-$body-bg:           $blue-darker;
-$text-color:        $gray-lightest;
-$link-color:        $blue-light;
+$link-color:        $brand-primary;
 $link-hover-color:  darken($link-color, 10%);
 
 //== Typography
 //
 
-@import url(http://fonts.googleapis.com/css?family=Merriweather:400,700,300);
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200);
 
-$font-family-serif:         'Merriweather', Georgia, serif;
-$headings-font-family:      $font-family-serif;
-$headings-font-weight:      400;
-$headings-color:            $orange;
+$headings-font-family:    Raleway, 'Helvetica Neue', Helvetica, Arial, sans-serif ;
+$headings-font-weight:    100;
+
+
+//== Sidebar
+//
+$sidebar-width-xs: 48px;
+$sidebar-width-sm: 140px;
+$logo-size-xs: 32px;
+$logo-size-sm: 64px;
+$logo-padding-xs: ( $sidebar-width-xs - $logo-size-xs ) / 2;
+$logo-padding-sm: ( $sidebar-width-sm - $logo-size-sm ) / 2;
