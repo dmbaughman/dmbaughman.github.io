@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+</html>
+{% include head.html %}
+
+<body>
+
+    {% include sidebar.html %}
+
+    <main class="page-content">
+
+    {{ page.content }}
+
+    {% for work in site.work %}
+        <h2 class="h3">{{ work.title }}</h2>
+        <p>{{ work.content }}</p>
+    {% endfor %}
+    </main>
+
+    {% include footer.html %}
+
+</body>
+
+</html>
