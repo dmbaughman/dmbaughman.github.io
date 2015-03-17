@@ -2,7 +2,7 @@
 title: Softcard (formerly Isis)
 order: 2
 tags: [Hyde, Bootstrap 3, Grunt, Handlebars, jQuery, AJAX]
-carousel: [paywithisis-home.jpeg, paywithisis-responsive.jpg, paywithisis-get-started.jpeg, paywithisis-learn.jpeg, paywithisis-help.jpeg]
+images: [paywithisis-responsive.jpg, paywithisis-home.jpeg, paywithisis-get-started.jpeg, paywithisis-learn.jpeg, paywithisis-help.jpeg]
 link: https://www.paywithisis.com
 ---
 

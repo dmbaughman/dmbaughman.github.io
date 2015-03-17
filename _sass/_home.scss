@@ -14,6 +14,7 @@ $hero-image-url: "../img/thunderbolt-desk.jpg";
         content: " ";
         z-index: -1;
     }
+
     .hero {
         @extend .clearfix;
         margin-bottom: 120px;
@@ -21,7 +22,7 @@ $hero-image-url: "../img/thunderbolt-desk.jpg";
             background: $brand-primary;
             color: #fff;
             float: right;
-            margin-top: $logo-size-sm + ( $logo-padding-sm / 2 );
+            margin-top: 0;
             opacity: .95;
             padding: 55px 35px;
             border-radius: 0 20px;
@@ -30,10 +31,8 @@ $hero-image-url: "../img/thunderbolt-desk.jpg";
             }
             h2 {
                 color: $gray-darker;
-                //font-weight: 100;
             }            
         }
-
     }
 
     .copy {
@@ -43,6 +42,4 @@ $hero-image-url: "../img/thunderbolt-desk.jpg";
         opacity: .95;
         padding: $grid-gutter-width;
     }
-
-
 }

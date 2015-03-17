@@ -1,13 +1,15 @@
-.container-fluid {
-    margin-left: inherit;
-    margin-right: inherit;
-    max-width: $screen-lg-min;
-}
-
 .page-content {
 	@include container-fixed();
-    margin-left: $sidebar-width-xs;
-    @media( min-width: $screen-sm-min ) {
-        margin-left: $sidebar-width-sm;
-    }
+}
+
+.page-section {
+    border-bottom: 1px solid darken($gray-lighter, 15%);
+    margin-top: $grid-gutter-width;
+    margin-bottom: $grid-gutter-width / 2;
+    color: $brand-primary;
+}
+
+.portfolio-image {
+    @extend .img-responsive;
+    margin-bottom: $grid-gutter-width;
 }

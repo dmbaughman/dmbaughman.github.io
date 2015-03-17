@@ -2,7 +2,7 @@
 title: Search 2.0
 category: work
 tags: [SHTML, CSS, jQuery]
-carousel: [search_2.0_1.png, search_2.0_2.png, search_2.0_3.png, search_2.0_4.png]
+images: [search_2.0_1.png, search_2.0_2.png, search_2.0_3.png, search_2.0_4.png]
 link: http://www.search-3.1.dmbaughman.com
 ---
 Search 2.0 was the first re-design I did for Enterprise Search a few months after joining the group.  Prior to this, the search landing page our user/developer reference materials were completely separate, so it was difficult for users to get self-help on everyday topics.

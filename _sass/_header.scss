@@ -1,46 +1,33 @@
-.sidebar {
-    background: $gray-darker;
-    border-right: 5px solid $brand-primary;
-    bottom: 0;
+.header {
+    @extend .clearfix;
+    border-bottom: 5px solid $brand-primary;
+    height: $header-height;
+    width: 100%;
     color: #fff;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: $sidebar-width-xs;
-    @include box-sizing( content-box );
-    @media( min-width: $screen-sm-min ) {
-        width: $sidebar-width-sm;
-    }
-
+    background: $gray-darker;
     &-brand {
-        display: block;
-        padding: $logo-padding-xs;
+        float: left;
+        padding: $logo-padding $logo-padding $logo-padding 0;
+        margin-right: $grid-gutter-width;
         .logo {
             fill: #fff;
-            height: $logo-size-xs;
-            width: $logo-size-xs;
-        }
-
-        @media( min-width: $screen-sm-min ) {
-            padding: ( $logo-padding-sm / 2 ) $logo-padding-sm;
-            .logo {
-                height: $logo-size-sm;
-                width: $logo-size-sm;
-            }
+            height: $logo-size;
+            width: $logo-size;
         }
     }
     &-links {
+        float: left;
         .nav-link-list {
-            @extend .list-unstyled;
+            @extend .list-inline;
             &-item {
                 @include transition( background .2s ease );
                 a {
                     display: block;
+                    padding: (($header-height - $font-size-large) / 2) $grid-gutter-width;
                     font-family: $headings-font-family;
                     font-size: $font-size-large;
                     font-weight: 100;
-                    padding-top: 8px;
-                    padding-bottom: 8px;
+                    line-height: 1;
                     text-align: center;
                     &,
                     &:hover,
@@ -49,7 +36,6 @@
                         color: #fff;
                         text-decoration: none;
                     }
-
                 }
                 &:hover {
                     background: darken( $brand-primary, 15% );
@@ -57,7 +43,6 @@
                 &.active {
                     background: $brand-primary;
                 }
-
             }
         }
     }

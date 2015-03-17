@@ -2,7 +2,7 @@
 title: Designicity
 order: 3
 tags: [Wok, Bootstrap, Masonry.js, jQuery.BlackAndWhite]
-carousel: [designicity-home.png, designicity-blog.png, designicity-modal.png]
+images: [designicity-home.png, designicity-blog.png, designicity-modal.png]
 link: http://designicity.com
 ---
 
