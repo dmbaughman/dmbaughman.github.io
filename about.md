@@ -33,7 +33,7 @@ nav_order: 3
                 <h3>Bootstrap</h3>
                 <p>I &hearts; Bootstrap. I've used Bootstrap on nearly every project I've worked on since version 2, and it is amazing. While I've mostly seen it used in the wild for quick-and-dirty documentation sites, I have used it almost exclusively as a starting point for creating custom designs.</p>
 
-                <p>The approach I take to creating custom designs with Bootstrap is to add extra LESS files which are compiled into the bootstrap.css and bootstrap-responsive.css output files. I put these custom files at the end so I can over-ride the default patterns when needed. This approach has worked out very nicely, and ensures that I can update the core Bootstrap files fairly easily without losing all of my customizations.</p>
+                <p>The approach I typically take to creating custom designs with Bootstrap is to add override LESS files which are compiled into a single stylesheet. This approach has worked out very nicely, and ensures that I can update the core Bootstrap files fairly easily without losing all of my customizations.</p>
             </div>
         </div>        
     </section>
