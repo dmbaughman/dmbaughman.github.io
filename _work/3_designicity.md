@@ -1,7 +1,7 @@
 ---
 title: Designicity
 order: 3
-tags: [Wok, Bootstrap, Masonry.js, jQuery.BlackAndWhite]
+tags: [Wok, Jinja, Bootstrap, LESS, jQuery, Masonry.js]
 images: [designicity-home.png, designicity-blog.png, designicity-modal.png]
 link: http://designicity.com
 ---

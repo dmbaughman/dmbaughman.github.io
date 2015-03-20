@@ -1,45 +1,46 @@
 $hero-image-url: "../img/thunderbolt-desk.jpg";
 
 .home {
-    &:before {
-        position: fixed;
-        background: url( $hero-image-url ) center center no-repeat;
-        background-size: cover;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        width: auto;
-        height: auto;
-        content: " ";
-        z-index: -1;
-    }
-
     .hero {
         @extend .clearfix;
-        margin-bottom: 120px;
+        
+        background: url( $hero-image-url ) center center no-repeat;
+        background-size: cover;
+
         &-text {
-            background: $brand-primary;
-            color: #fff;
             float: right;
-            margin-top: 0;
-            opacity: .95;
-            padding: 55px 35px;
+            margin-top: $grid-gutter-width * 6;
+            margin-bottom: $grid-gutter-width * 6;
+            padding: ( $grid-gutter-width * 1.5 ) $grid-gutter-width;
             border-radius: 0 20px;
+            color: #fff;
+            background: $brand-primary;
+            opacity: .95;
+
             h1, h2 {
                 text-align: right;
             }
             h2 {
                 color: $gray-darker;
-            }            
+            }
         }
     }
 
     .copy {
-        background: $gray-darker;
-        border-radius: 0 20px;
+        padding-top: $grid-gutter-width * 2;
+        padding-bottom: $grid-gutter-width * 2;
         color: #fff;
-        opacity: .95;
-        padding: $grid-gutter-width;
+        background: $gray-darker;
+
+        a,
+        a:hover,
+        a:active,
+        a:visited {
+            color: lighten($brand-primary, 25%);
+        }
+        
+        .cta {
+            margin-top: $grid-gutter-width;
+        }
     }
 }

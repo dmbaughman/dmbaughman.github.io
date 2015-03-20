@@ -14,9 +14,15 @@
     {% for work in site.work %}
         <h2 class="h3 page-section">{{ work.title }}</h2>
         <div class="row">
-        <div class="col-md-4">
-            <p>{{ work.content }}</p>
-        </div>
+            <div class="col-md-4">
+                <p><a href="{{ work.link }}">View website</a> {{ work.link_note }}</p>
+                <ul class="list-inline">
+                    {% for tag in work.tags %}
+                    <li class="work-tag">{{ tag }}</li>
+                    {% endfor %}
+                </ul>
+                <p>{{ work.content }}</p>
+            </div>
         {% for img in work.images %}
             {% if forloop.first %}
             <div class="col-md-8">
