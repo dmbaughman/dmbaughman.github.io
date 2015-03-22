@@ -4,6 +4,7 @@ type: page
 title: About
 permalink: /about/
 nav_order: 3
+class: about
 ---
 <div class="container">
     <h1>About</h1>
@@ -25,17 +26,13 @@ nav_order: 3
                 <h2>This site</h2>
             </div>
             <div class="col-sm-8">
-                <h3>Jekyll</h3>
+                <h3>Jekyll + Github Pages</h3>
                 <p>I decided to use a static HTML generator as the framework for this site.  Github pages provides a robust set of tools for automatically building a project built in Jekyll, and it works perfectly for something static, like a portfolio.</p>
-
                 <p>I've used static generators like Jekyll, Hyde, and Wok for years now when working on sites with static content.  They provide the ability to reuse components, build macros, and do other things that make a site much easier to maintain.  As I've gained experience with these frameworks, it has become easier to pick up server-side frameworks that are built in a very similar way.</p>
-
                 <h3>Bootstrap</h3>
                 <p>I &hearts; Bootstrap. I've used Bootstrap on nearly every project I've worked on since version 2, and it is amazing. While I've mostly seen it used in the wild for quick-and-dirty documentation sites, I have used it almost exclusively as a starting point for creating custom designs.</p>
-
                 <p>The approach I typically take to creating custom designs with Bootstrap is to add override LESS files which are compiled into a single stylesheet. This approach has worked out very nicely, and ensures that I can update the core Bootstrap files fairly easily without losing all of my customizations.</p>
             </div>
         </div>        
     </section>
-
 </div>

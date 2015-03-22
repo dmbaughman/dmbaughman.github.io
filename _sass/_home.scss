@@ -1,46 +1,80 @@
-$hero-image-url: "../img/thunderbolt-desk.jpg";
+$hero-image-url:        "../img/thunderbolt-desk.jpg";
+$hero-margin:           $grid-gutter-width;
+$hero-margin-sm:        $grid-gutter-width * 6;
+$hero-padding:          $grid-gutter-width;
+$hero-padding-sm:       ( $grid-gutter-width * 1.5 ) $grid-gutter-width;
+$copy-padding:          $grid-gutter-width;
+$copy-padding-sm:       $grid-gutter-width * 2;
+$copy-link-color:       lighten($brand-primary, 25%);
+$chevron-size:          $font-size-base * .75;
 
 .home {
+    background-color: $gray-darker;
     .hero {
         @extend .clearfix;
-        
         background: url( $hero-image-url ) center center no-repeat;
         background-size: cover;
-
         &-text {
             float: right;
-            margin-top: $grid-gutter-width * 6;
-            margin-bottom: $grid-gutter-width * 6;
-            padding: ( $grid-gutter-width * 1.5 ) $grid-gutter-width;
+            margin-top: $hero-margin;
+            margin-bottom: $hero-margin;
+            padding: $hero-padding;
             border-radius: 0 20px;
             color: #fff;
             background: $brand-primary;
             opacity: .95;
-
             h1, h2 {
                 text-align: right;
             }
+            h1 {
+                font-size: $font-size-h3;
+            }
             h2 {
                 color: $gray-darker;
+                font-size: $font-size-h4;
+            }
+            @media (min-width: $screen-sm-min) {
+                margin-top: $hero-margin-sm;
+                margin-bottom: $hero-margin-sm;
+                padding: $hero-padding-sm;
+                h1, h2 {
+                    //text-align: right;
+                }
+                h1 {
+                    font-size: $font-size-h1;
+                }
+                h2 {
+                    font-size: $font-size-h2;
+                }
             }
         }
     }
-
     .copy {
-        padding-top: $grid-gutter-width * 2;
-        padding-bottom: $grid-gutter-width * 2;
+        padding-top: $copy-padding;
+        padding-bottom: $copy-padding;
         color: #fff;
-        background: $gray-darker;
-
+        @media (min-width: $screen-sm-min) {
+            padding-top: $copy-padding-sm;
+            padding-bottom: $copy-padding-sm;
+        }
         a,
         a:hover,
         a:active,
         a:visited {
-            color: lighten($brand-primary, 25%);
+            color: $copy-link-color;
         }
-        
         .cta {
             margin-top: $grid-gutter-width;
+            &:after {
+                position: relative;
+                right: -( $chevron-size / 2 );
+                width: $chevron-size;
+                height: $chevron-size;
+                color: $copy-link-color;
+                content: "\232a";
+                font-size: $chevron-size;
+                font-weight: 700;
+            }
         }
     }
 }

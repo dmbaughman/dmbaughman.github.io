@@ -1,10 +1,15 @@
-//== Variables
+//## Variables
+// 
+//== Overrides for Bootstrap variables
+
+
+//== Colors
 //
 
 $brand-primary: 	#0096db;
-
 $link-color:        $brand-primary;
 $link-hover-color:  darken($link-color, 10%);
+
 
 //== Typography
 //
@@ -12,11 +17,3 @@ $link-hover-color:  darken($link-color, 10%);
 $font-size-base:          16px;
 $headings-font-family:    Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif ;
 $headings-font-weight:    300;
-
-
-//== Sidebar
-//
-
-$header-height:     60px;
-$logo-size:         48px;
-$logo-padding:      ( $header-height - $logo-size ) / 2;

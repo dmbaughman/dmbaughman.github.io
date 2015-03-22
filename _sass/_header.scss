@@ -1,34 +1,69 @@
+//== Mobile
+//
+$header-height:         50px;
+$logo-size:             32px;
+$logo-padding:          ( ( $header-height - $logo-size ) / 2 ) ( $grid-gutter-width / 2 ) ( ( $header-height - $logo-size ) / 2 ) 0;
+$header-link-font-size: $font-size-base;
+$header-link-padding:   ( ( $header-height - $header-link-font-size ) / 2 ) ( $grid-gutter-width / 4 );
+
+//== Tablet +
+//
+$header-height-sm:          60px;
+$logo-size-sm:              48px;
+$logo-padding-sm:           ( ( $header-height-sm - $logo-size-sm ) / 2 ) $grid-gutter-width ( ( $header-height-sm - $logo-size-sm ) / 2 ) 0;
+$header-link-font-size-sm:  $font-size-large;
+$header-link-padding-sm:    ( ( $header-height-sm - $header-link-font-size-sm ) / 2 ) $grid-gutter-width;
+
 .header {
     @extend .clearfix;
     border-bottom: 5px solid $brand-primary;
-    height: $header-height;
+    overflow: hidden;
     width: 100%;
+    height: $header-height;
     color: #fff;
     background: $gray-darker;
+    @media (min-width: $screen-sm-min) {
+        height: $header-height-sm;
+    }
     &-brand {
+        display: block;
         float: left;
-        padding: $logo-padding $logo-padding $logo-padding 0;
-        margin-right: $grid-gutter-width;
+        padding: $logo-padding;
+        line-height: 1;
+        @media (min-width: $screen-sm-min) {
+            padding: $logo-padding-sm;
+        }
         .logo {
             fill: #fff;
-            height: $logo-size;
             width: $logo-size;
+            height: $logo-size;
+            line-height: 1;
+            @media (min-width: $screen-sm-min) {
+                width: $logo-size-sm;
+                height: $logo-size-sm;
+            }
         }
     }
     &-links {
+        display: block;
         float: left;
         .nav-link-list {
             @extend .list-inline;
+            margin-bottom: 0;
             &-item {
                 @include transition( background .2s ease );
                 a {
                     display: block;
-                    padding: (($header-height - $font-size-large) / 2) $grid-gutter-width;
+                    padding: $header-link-padding;
                     font-family: $headings-font-family;
-                    font-size: $font-size-large;
+                    font-size: $header-link-font-size;
                     font-weight: 300;
                     line-height: 1;
                     text-align: center;
+                    @media (min-width: $screen-sm-min) {
+                        padding: $header-link-padding-sm;
+                        font-size: $header-link-font-size-sm;
+                    }
                     &,
                     &:hover,
                     &:visited,
