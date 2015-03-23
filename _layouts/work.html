@@ -15,7 +15,9 @@
         <h2 class="page-section">{{ work.title }}</h2>
         <div class="row">
             <div class="col-md-4">
+                {% if work.link %}
                 <p><a href="{{ work.link }}">View website</a> {{ work.link_note }}</p>
+                {% endif %}
                 <ul class="list-inline">
                     {% for tag in work.tags %}
                     <li class="work-tag">{{ tag }}</li>
