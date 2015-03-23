@@ -2,8 +2,6 @@
 title: Search 3.1
 tags: [HTML5, CSS3, jQuery, Responsive]
 images: [search_3.1_responsive.png]
-link: http://www.search-3.1.dmbaughman.com
-link_note: (archived view)
 ---
 Search 3.1 was intended as the front-end for our new search engine, but it took so long for our infrastructure to be put in place that I ended up re-designing it before it could be implemented.
 
