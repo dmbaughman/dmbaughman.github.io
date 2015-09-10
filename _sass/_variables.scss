@@ -15,5 +15,6 @@ $link-hover-color:  darken($link-color, 10%);
 //
 
 $font-size-base:          16px;
-$headings-font-family:    Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+$font-family-sans-serif:  Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif ;
+$headings-font-family:    $font-family-sans-serif;
 $headings-font-weight:    300;
