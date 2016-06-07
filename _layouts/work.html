@@ -11,7 +11,8 @@
 
     {{ page.content }}
 
-    {% for work in site.work %}
+    {% assign sorted_work = site.work | sort: 'order' %}
+    {% for work in sorted_work %}
         <h2 class="page-section">{{ work.title }}</h2>
         <div class="row">
             <div class="col-md-4">

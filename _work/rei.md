@@ -1,6 +1,6 @@
 ---
 title: REI
-order: 1
+order: 3
 tags: [Bootstrap, LESS, Gulp, CommonJS, Nunjucks]
 images: [rei-mobile-nav.jpg, rei-dashboard.jpg, rei-payment.jpg, rei-addresses.jpg]
 link: http://www.rei.com

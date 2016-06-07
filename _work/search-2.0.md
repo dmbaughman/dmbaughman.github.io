@@ -1,6 +1,6 @@
 ---
 title: Search 2.0
-category: work
+order: 8
 tags: [SHTML, CSS, jQuery]
 images: [search_2.0_1.png, search_2.0_2.png, search_2.0_3.png, search_2.0_4.png]
 link: http://search-2.dmbaughman.com

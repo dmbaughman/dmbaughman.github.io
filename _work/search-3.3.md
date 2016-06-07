@@ -1,5 +1,6 @@
 ---
 title: Search 3.3
+order: 6
 tags: [HTML5, CSS3, jQuery, Responsive, ASP.NET, SharePoint, XSLT]
 images: [search_3.3_2.png, search_3.3_1.png, search_3.3_3.png, search_3.3_4.png]
 link: http://search-3.3.dmbaughman.com
