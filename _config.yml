@@ -10,7 +10,7 @@ collections:
     - work
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 exclude:
     - 'node_modules'
     - 'README.md'
