@@ -1,6 +1,6 @@
 ---
 title: IMS Health
-order: 1
+order: 2
 tags: [Bootstrap, SASS, NPM, Gulp, Jekyll]
 images: [ims-docs-home.png, ims-docs-color.png, ims-oce-cases.jpg, ims-oce-modal.jpg]
 link: http://design.imshealth.com
