@@ -14,11 +14,11 @@ class: about
                 <h2>Me</h2>
             </div>
             <div class="col-sm-8">
-                <p>I have worked as a web designer and developer since 2010.  I became interested in web development while working for Boeing's Usability Services group, but quickly discovered that designing and conducting user studies wasn't satisfying enough for me&ndash;I wanted to actually build the site.</p>
+                <p>I have worked as a web designer and front-end developer since 2010.  I became interested in web development while working for Boeing's Usability Services group, but quickly discovered that designing and conducting user studies wasn't satisfying enough for me&ndash;I wanted to actually build the site.</p>
                 <p>Since then, I have worked on a variety of projects ranging from an intranet search engine to eCommerce.  I always strive to keep a pulse on the modern trends of web development, both to deliver the best possible experience for users as well as to make life easier as a developer.</p>
-                <p>I live near Seattle, WA with my wife and three kids.  I enjoy riding my bike to work, leading boy scouts on outdoor adventures, and spending quality time with my family.</p>
+                <p>I live in Idaho Falls, ID with my wife and three kids.  I enjoy exercising every day, doing home improvement projects, and spending quality time with my family.</p>
             </div>
-        </div>        
+        </div>
     </section>
     <section class="page-section">
         <div class="row">
@@ -33,6 +33,6 @@ class: about
                 <p>I &hearts; Bootstrap. I have used Bootstrap on nearly every project I have worked on since version 2, and it has been great to work with. While I've mostly seen it used in the wild for quick-and-dirty documentation sites, I have used it almost exclusively as a starting point for creating custom designs.</p>
                 <p>The approach I typically take to creating custom designs with Bootstrap is to add override SCSS files which are compiled into a single stylesheet. This approach has worked out very nicely, and ensures that I can update the core Bootstrap files when I want to upgrade to a newer version.</p>
             </div>
-        </div>        
+        </div>
     </section>
 </div>
