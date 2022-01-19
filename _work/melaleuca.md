@@ -1,6 +1,6 @@
 ---
 title: Melaleuca
-order: 1
+order: 2
 tags: [NodeJS, AngularJS, Elasticsearch, AWS Lambda, SASS, Gulp]
 images: [melaleuca-search-bar.jpg, melaleuca-search-results.jpg, melaleuca-category-page.jpg, melaleuca-clean-gleam.jpg]
 link: http://www.melaleuca.com

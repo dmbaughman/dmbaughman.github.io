@@ -1,6 +1,6 @@
 ---
 title: Capital One Investing
-order: 3
+order: 4
 tags: [Bootstrap, SASS, NPM, Gulp, Jekyll]
 images: [cofi-one-design-screenshot.jpg]
 link: http://dmbaughman.github.io/cofi-one-design-docs
